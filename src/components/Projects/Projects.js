@@ -8,6 +8,7 @@ import maze from "../../Assets/Projects/maze.png";
 import carcar from "../../Assets/Projects/carcar.png";
 import css_perspective_playground from "../../Assets/Projects/css_perspective_playground.png";
 import vue_music from "../../Assets/Projects/vue_music.png";
+import mazer from "../../Assets/Projects/mazer.png"
 
 function Projects() {
   return (
@@ -24,6 +25,19 @@ function Projects() {
           Here are some of the things that I've developed recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col
+              md={4}
+              className="project-card"
+          >
+            <ProjectCard
+                imgPath={mazer}
+                title="Mazer"
+                description="A page which visualizes the algorithmic generation and solving mazes."
+                ghLink="https://github.com/funksy/rust_mazes"
+                demoLink="https://mazer.johnlukich.me"
+            />
+          </Col>
+
           <Col
             md={4}
             className="project-card"
