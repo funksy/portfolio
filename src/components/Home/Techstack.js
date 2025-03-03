@@ -12,6 +12,7 @@ import {
   SiDjango,
   SiJsonwebtokens,
   SiVuedotjs,
+  SiRust,
 } from "react-icons/si"
 
 function Techstack() {
@@ -23,6 +24,9 @@ function Techstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiJavascript />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiRust />
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiFastapi/>
